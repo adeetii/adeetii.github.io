@@ -1,0 +1,133 @@
+h1{
+        padding: 30px;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    img{
+        width: 25%;
+        margin-top:70px;
+        float: left; 
+    }
+
+    h3{
+        font-size: 20px;
+        padding-right:40px
+        padding-bottom:70px;
+    }
+
+    h2{
+        font-size: 40px;
+        padding-top:160px; 
+    }
+    
+    table{
+        margin: auto;
+    }    
+
+    h4{
+        padding-left:50px;
+        padding-top:300px;
+        padding-bottom:0px;
+        margin:auto;
+        font-size: 30px;
+    }
+
+    h5{
+        padding-top:50px;
+        padding-left:520px;
+        font-size: larger;
+    }
+
+    body{
+        background-color: whitesmoke;
+    }
+    
+    h6{
+        padding-right:700px; 
+        padding-top:0px; 
+        text-align: center; 
+        background-color: beige ; 
+        margin: auto; 
+        font-size: 30px;    
+    }
+    
+    button{
+        float:right;
+        background-color: rgb(177, 151, 151);
+        margin-top:35px;
+        font-size: 15px;
+        button:hover;
+    }
+
+    .imgTH{
+        width: 3%;
+        padding-bottom:0px; 
+        padding-top:30px; 
+        margin:auto;
+    }
+
+    .h2{
+        padding-top:150px; 
+        text-align: center;
+    }
+
+    .h3{
+        padding-top:0px; 
+        text-align: center;
+    }
+    
+    .imgMain1{
+        float: right; 
+        width: 70%; 
+        margin-bottom:60px;
+    }
+
+    .tabletd3{
+        text-align: center;
+    }
+
+    .tabletd1{
+        padding-right:00px; 
+        padding-top:0px; 
+        margin:auto;
+        padding-bottom:600px; 
+        text-align: center;
+    }
+
+    .imgMain2{
+        float: right ; 
+        width: 10%;
+    }
+
+    .tabletd2{
+        padding-right:0px; 
+        padding-top:0px; 
+        padding-bottom:600px; 
+        text-align: center;
+    }
+
+    .imgMain3{
+        float: right; 
+        width: 20%; 
+        margin-right: 300px; 
+        margin-bottom:50px;
+    }
+
+    .p1{
+        padding-right:700px; 
+        padding-top:0px; 
+        text-align: center; 
+        background-color: beige ; 
+        margin: auto; 
+        font-size: 19px;
+    }
+
+    .table{
+        text-align:center;
+        padding-right:0px; 
+        background-color: beige;
+        font-size: 19px;
+    }
+
+    
