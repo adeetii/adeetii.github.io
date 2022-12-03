@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="../css/style1.css">
+    <link rel="" href="../html/form.html">
+</head>
+
+<body>
+<!-- navigation bar -->
+    <nav class="navbar navbar-dark bg-dark" style="position:-webkit-sticky; top:0px; ">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    <a class="nav-link" href="./blog.html">Blog</a>
+                    <a class="nav-link" href="./projects.html">Projects</a>
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                    <a class="nav-link" href="./javalibrary.html">JavaScript</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+<!-- intro image -->
+    <div class="container container-fluid">
+        <img src="../images/adeetiartist.jpg" class="d-inline-block  " alt="intro" style=" width:50%; margin-left: 350px; top:0px;"> 
+    </div>
+<!-- contact input -->
+<br>
+<p class="text-center" style="font-size:30px;"> 
+    Contact me!
+</p>
+<form name="contact-form">
+    <div class="form-control">
+      <label>Full Name</label>
+      <input name="name"
+        placeholder="First and Last Name" />
+      <div class="error hide">Name is required</div>
+    </div>
+
+    <div class="form-control">
+      <label>Email</label>
+      <input
+        name="email"
+        placeholder="e.g. your_email@example.com"
+      />
+      <div class="error hide">Email is invalid</div>
+    </div>
+
+    <div class="form-control">
+      <label>Phone</label>
+      <input name="phone"
+      ></input>
+      <div class="error hide">Phone is invalid</div>
+    </div>
+
+    <div class="form-control">
+      <label>Message</label>
+      <textarea name="message"></textarea>
+      <div class="error hide">Message is required</div>
+    </div>
+    <button type="submit">SUBMIT FORM</button>
+  </form>
+  <script src="../javascript/form.js"></script>
+
+<!--<div class="container">
+    <div class="row">
+        <div class="col"></div>
+        <div class="col-5 text-center">
+            <div class="row mb-4">
+                <div class="col text-center">
+                    <h1>Contact Me</h1>
+                </div>
+            </div>
+
+            <div class="row mt-5 ">
+                <div class="col text-center ">
+                    <label for="name">
+                        <h5 class="">Name</h5>
+                    </label>
+                </div>
+                <div class="col">
+                    <input required="" type="text" class="form-control" id="name" placeholder="Zara Hemdev">
+                </div>
+            </div>
+
+            <div class="row mt-3 ">
+                <div class="col text-center ">
+                    <label for="email">
+                        <h5 class="">Email ID</h5>
+                    </label>
+                </div>
+                <div class="col">
+                    <input required="" type="email" class="form-control" id="email" placeholder="xyz@gamil.com">
+                </div>
+            </div>
+
+            <div class="row mt-3 ">
+                <div class="col text-center">
+                    <label for="email">
+                        <h5 class="">Phone Number</h5>
+                    </label>
+                </div>
+                <div class="col">
+                    <input required="" type="tel" class="form-control" id="phone" placeholder="9287657890">
+                </div>
+            </div>
+            <button type="submit" class="btn btn-outline-success p-2 m-3 text-center">Submit</button>
+        </div>
+        <div class="col"></div>
+    </div>
+</div> -->
+<!--about me card -->
+    <div class="container-fluid mt-5 mb-2 ms-1 card text-center card-footer">
+        <h3>About Shukla Ji!</h3>
+        <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+            Read More
+        </button>
+    </div>
+    <div class="offcanvas offcanvas-start card card-footer" id="demo">
+        <div class="offcanvas-header">
+            <h1 class="offcanvas-title font-weight-bold" style="font-size:25px;">A glimpse of Adeeti's world</h1>
+        </div>
+        <div class="offcanvas-body">
+            <p>
+                Hi. Miss Shukla is currently pursuing Communication Design at ISDI, Parsons, Mumbai. She adores the fast
+                life of Mumbai and tries to enrich her experience through her work. She loves taking street pictures.
+                She can be a little dark sometimes. Her favourite color scheme is red, black and grey, she tries to break
+                from her comfort zone, though. <br>
+                Welcome to a glimpse of her world.  
+            </p>
+            <a href="./index.html">
+                <img src="../images/me.png" alt="" style="height:55vh;">
+                <button class="btn btn-secondary mt-3" type="button">Like it? See more!</button>
+            </a>
+        </div>
+    </div>
+ <!-- footer -->
+    <div class="container-fluid">
+        <footer class="text-center text-lg-start text-dark mt-5 bg-light">
+            <div class="container p-4 pb-0">
+                <div>
+                    <div class="row">
+                        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-1">
+                            <h6 class="text-uppercase mb-4 font-weight-bold">
+                                Adeeti Shukla
+                            </h6>
+                            <p>
+                            An explorer and artist.
+                            </p>
+                        </div>
+                        <hr class="w-100 clearfix d-md-none">
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-1">
+                            <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                            <p>adeetiwork@gmail.com</p>
+                            <p>+ 91 9284038480</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center p-3" style="background-color:#b3b3b3">
+                © 2022 Copyright: Adeeti Shukla
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
